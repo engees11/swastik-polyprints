@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swastik Poly Prints Pvt. Ltd. | Textile Process House, Surat</title>
+  <link rel="icon" type="image/png"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAAA8AXHiAAAgAElEQVR4nO19eXxU1d3+c5eZzEz2PYQQIIQtgIAIhsUFEYqKuEV97a9utVYrrdXavta3r6XYWtu6gG1BrfXX2latQlEQRVABkR3CnrBkDyEh2ySZTGa/57x/3Htnzr0zQZaQ9T6fz829OffMnXNnnvl+n/M933MuYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQPnh98u+Xfe+FEP5/34sRV5/3l/W1xPt6e3gO/pBvRlvPDc+/PKyuqK/H5SVFtrL2pzdCwp3FNqkAuA2NMN6Kt4/rkPCvYfKlu+Y+dxgFLs2luClLT4J1panG8CKO7p9vU0DIt1Afjtb1YW7DlQunTvoYo0KvCASYDE8/hiy1HEJ8Qu7en29QYYxDpPvPLK2nmHjp9afuBYdZaXElCTACIIoKIApy+AHbuOz+vpNvYGGMQ6Dyx99ZOFB46f2rB578k0N6GQRBGSKEAyCZBEAUQUsGn3CWzZUpTf023taRjEOkesWr1n3pGyujWf7TwGSRRATSIkgQcRVYvFg5gEdEgEhQfK3+rp9vY0DPF+Dvhk/YGCdVuPLv/o6yMgPA/wAAcAFOBAAQqA0mD9TTsGvHY3LNY34eDh6oLP95xc+tH2Y2k+XkBAFBEQRfgFAQFRQEAQgu4wIAqQBAE1DldGaemZ7/Z023sSBrHOgoYGR9Y76/be/eHO41nNvgC8ogCfyMMv8PALgrwXBXlTCBYQebg5LulwUc3cnm5/T8JwhZ3gySX/sTz0i3cLjtQ1F1Q5PQCv+D+qukEq7wFw6jGl4DjAGSAoPFI1oD/bAX3zZ4Mt1vroaY9/aWW7BxAEQEBQR6lqilK9vpL3bsqhtsnR3U3uVTBcYQR8+kXRY9sqzizdX9sMiIK8CcomiqFjQTlnEjV1AhwHh8vf07fRozAsFgOv18c//9K6Jz768tDir0pqZbJQpoJqmZgeYFgZpYAoINAtLe69MIiloKKiKf/VN798YdX2ostP8WIceEE5QxnfR5QDLpxcLLEEAYJ5YH+0A/vuFbz9/s6Fr73/9Zq3PtmLxFgb/IIY0lSqhuIAUAFBlmnIpqh6SgFwEM1mpCYN7CSHAU+sF/+4Yd4XB8rWrPy6CH5CwAkiAoKokEQmSkQXCCik4sPcpdlixsihad1zA70UA5pYv122vmDLiVPLPz1YCgogwRoFl2hCQFDc4Nk0FQBQte/DWDFKIVpMvsvzBtdc4ub3agxYYi15aV3B50WVS3eU1qZRXrY61mgrOKsFLsqF3CAAhTHnLORjTKbanCGJr3XDbfRaDEhi/fGvm+d9caRy+Y6yujRvgAAcB/AcGnkBRBABEqnXB0VKfUOPkFLMHTXENSwr6WR33EtvxYCLY32w7sDCwlONG9YeKk/zEgoIPMDzMIkCBFOUTCzRFGETgeA5URvPUv8XRVitFnz/5skDfhR6QBGrsak9o6i6Yc1724/JQzQ8r1grHjazCQk2i0IcXQBU1AdGRYAXtIQTZGLdNmEoLhuddmdP32tPY0C5wtfe3f7MnzcUwkepTChAJhcA3mwGb7EAnBAS5Rq3p/zptIdIkWo144qR6SvevaR30TcwYIj1l3d2PvGnzwofaPZJQTIF41PgIAkCAiYTQ6rgH62ID9NVoQq3Xz4MsVHm5Zf4VvoEBoQrrDpln7++uGrRiaa2ONX1gedlt8YLAM/Dx/NwC4xbC44L6lygaNLWUepNSE9EvMn05IQhSeU9fb+9Af3eYn25vSTu2dc/v3n3ydpcHxDSVUEzJLtED6+QhobSY0IWK5KlCrlCm8WEmIz4Pz9922V/TY6zeC75TfUB9HtiHatqnNckSY/VdngBTs0pVqDqLEoVCybKdTSuj9nr0mNAgSiBw9yclJonZuR8lRxncXbDLfUJ9GtifbjxaNqGA5V37yg5A/AqiZSTHB/6h+PB8xx4nkeANyn19JYpsnDPTbI1TEqJe2r2xIxVl/Je+hr6tcb6fF9FSnlDW0Grz69YK0Zf8ZxcprjGKA6wCbwmJtX5psS2oq24bkTqU78sGPdBT99rb0O/JtaVk4au2VpRHxToGnKpx5Cj7iYAFgAQTPImsnsxdKzGrqLM+MPsESeX3DDqA4Hjzt6QAYh+6wpdLh9/x5IPcz0UMoE4IPQ7UsdnQghIBL6ABESbERob1GkspSzOIuLpKzJrZmbE3ZQUa/Z11z31JfRbYn29v/rW9ZX1wXFAAIwo55ienwyXRODyB2RrxJ6kLMkoEswCbs+JLx6TaH1o5ujE0u66n76GfkusosqmX0NSBpg5LhQMZd0Wa7QoBfw+uUwwQSPW5Qqw8sD0dFvxxOSYRXdcnrarW26kj6LfEuvDAxWytlLJoRJKNUZsqEE5jgl4EZD88IhmuWKQhPKLJqRYa8YkRj3842sG7ei+O+mb6JfivbHJOf6o3WnT9gL5kGhXg6RBIS8fuztc8Hk82rwr1azFmjE5zfqtl27IMkh1DuiXxNp6sGZxtCVqWBipeCE0jKMOx6jlvAApQMC5HACVNNdLiTcHfjc5+e435g8uNnqA54Z+Sayiaju8rL7i1JgVFxLzrMXiueAW094GIeAPWq2sWBN+Pi5x042DbFt79q76FvqlxqpqdsJPKEJTuL4BTCewzeWB6G4HzBYkmgVcm2bdMtQqPnnZYNuZS9bgfoh+SayGDi8kVqAHBbu+JlPAjPBQewMQnwpECXsyLMKP75yY2KUZoQ121zBCSGaMzXw4xmbul+OL/ZJYHkJBVNcHQI6uIzjvL5xgkEmlCAPJ6cJwkwu/yc+qvm103OGXLrAdDa2ezP1l9ucPVbdM21rZhK0NDrQ73che/LHFzMHc4fY68fDbJMNmxuR4G/LS4nDVuMH2aXkZv85Mj9t4gW/bK9Avleg1z65dube+tcAVUEQ4PUvlTsR4bKyl9v1v599/45XDvjjX991dYs/69bbquNtyE3e+e7Q+7stTdsDjlSdnSAGZ2EQCJEk+liR5bqJEAELkY0Jg5Tlcnh6PueOyUO/13Wt1+fffmJ/ruH5mbp+ZUtYviXXH7zau3FjVWNDuY1dQoNr4VWdQgqkxZhG3jR286/G5Yx6aOjbjrK7QHyB49uOyPJuNf2PNyaYZhadb+BCJFMIEVGIRuZwQmViEMJvE1FE2DlgwIgMjsxJ3NTS0v7zwypFH580ceTIxwUrO1qaeRr90hWmxVogCz2gs3fiNhmDM9PhgHjwHp0Sxv9GRv/7omQKJ0OcEPjIhy+tdca/tOVOw5Yzz3pIW56zmDi9zTfX9lGsTom0Hp9908xkVkq07XgPziVP5o1PiV1Z+fuCLLQfK9pyubf1kcGZCr42p9UtijUiPg7lMBHwSgkY5OCeQAzjliw7OFdTpLiUPvqTZhS2lDXdb/nN4I4CIQzgrjza987eTTfmVza4Uj9fPvJd6HR2RKHuOAWWqsqMDlAMogY8QHKmzgwe9vrax7fqylz9e8NIbm/7z3TunrkhKim26gI/pkqJfxrEmDkuGJcqkjbCDibIH90xci+eDcwzV2JaPUuyud+QRq/C3w6VNw9j3cPuJ+furyz5++WD9guONrhRPQIrcmLChIWgJxjJMPTyLJiSEoqK5HZuLqy9buqHw6Z8uW7/9//97V69bW75faqwWhydjyK8++drp8edqglQaK6VUDn6ZEeMRAAckRlvwrdy0e//9/en/Ot3qNb9xvHXMyuMty0vrnbP8fr+imSRGM7F7RTNJAaachDSWqqnY17JlqlYjBJBoUOCzW15iDJ665yp0tHSMfPzhOb0i46JfEgsArvrDpqKvq5vzQtpJIY5+UBqAxjdxCB2rr6UU0zMTsWh6zm3tiQnml440P1XW4JwGn18hBEMsShWhzop0EqqjJxYhOvKQcPKovUdCQ8STSKhnSQiieA735I+pSbdFPfKjB647nJWV2KM9yH6psQDgjrGD8PUpuzZtBmBcYydgDRcj/neeaUNaaeN7dXGkoazJky1HYKH9abLpOaxmYq+tKnVO9xr1YlyE16laS//jYCp6JYL3thdnTR+e/k72l4c27tpbtiR/6ogem+rfb4mVmxbzFMym9QgoAp47y5cXyXhFiNyvOdFgQVIgG+YY5oVcuFYKXpcDIgYFaPgx1ZdHgOYtKPSdAK8kYUdZbYLD7b3L3urKfm/V7jvvKbiyRyxXvxTvADBvyuDP5mYlhtJk1Lz34CQKRrQHU2kipNawAp9QoN0B+N3Ku+iSATVTxZQyvUVTC6ku3BFmRdnrMhdUwxJsNcbq+SSKI9WN+Mu63fnHK85sPv9PrmvQ5Rpr//7yUavX7BG/LizBD7437+XG5o75J6saYXe44ZUIOEGAzWZB1qAkZGYmHK51uBbX1rWfvG/ueMyeOqxLTfdbX1WUfH/d0VyJdGaedMJeb8ZY0rA6zWIComMBiCGdJElyuo3Eail1TxnxzgRJNRpLq8l4jsLEcZAoRYBCiYFBbgMhgM8PUAJBIjARCdQfgNfvB4hcJhICkVIsuunK0uyMxNk/fHRut1quLiFWu8Nl/ve7X0/78qvDGVNnjH1j38GKpOKKM6hxuOEC4FOekhVa8kfJiTKJSLRZMWlIKq6eOJQcLGu6+zuzRtXcOWd0l6T93vzXvXm17d6iwto2uUAzVqj3fywi+UqqtTgWE2CNBiQwQlwlUkAR1xLChLo+0q4rs5lF+AQRZpMJSdFWOEUTWsHLLpXS0BCQJAE0gFgSQErAB+J0obqlDTEBP3i3Fz6vFxwhSLKacdc1l+2aOmHYQ/fcNb3bNNdFEUsKSHj5Dx/mlZTV3m9vc91+uqE1t6KhFRLPy8+XUR4F4hNFSOqSQCy5BHZ9dBGj0xIxanBScU5K3PtzRmesWjgr56I+iH9trUpbXd68fHVJYwEC5zMCwuiwzj4hCsBqBiw2wBfQWZyAtjdIaahM7fFJJDR+SAmio8xwR1kQGx0Nl9kCP+Ui9ApVixeZpDwhSJR8gLMDvMuFqI4OtLW1Y2hKPO7+1uVb5s4cuyg/f1S3kOuixPv773119Zdf7P99fbMzv6mtAxLPgZpCl6Tg5MAxx1iJMJejlAM4YW9Hebsnb1hqx5KSRucNmw7WfHjdpKw/XGj77p6R1XDI4Vk5w+Uv2FHd0nlvsLMxRH2RPv7lkwDBJ/84Ik0CU4dq9DoseA0OZrMIITYOAWs0qGhGG0W4dQu6Sv2ehKwYpSCgaIYARMfAZrXCFx2NaJsN7S0t2Lit6FqLSbjR3txenpQce8nXl7goYm3bUvReyYm6TPVJo5TjlQ5S6BuRZ01FIFJwMoNaJJf5CUVJsxM1Tn9+4cr94//xRenM+67PveVC2mcSBXy4p/azbdWOFTHWqMecXnZQmtVXiOAeEYpjBcMIOt0FAF4/YKaASQC8TDYFG1oIxsg4zb+Ij4U/IQUBwQTCai9KgmTRxMNUixc8p55XjknofxcBYDKjIy4ecVYL6h1t2LH75NPlpXVrAVzyZSwvqlfo8fky/ZIEynFQH1nEcSErFdpHit0g9KWp/zMDwW5JQn2LO+axz4oW3rpi59d/2Fo57dgpR0ykdpwNt03LdLx506jN+VkJ1YKq7dic92Duu6jNjWfz4zXDQOFLICGg9ARVax3suTHxJubHlmQ1484xg0tNo0eWJsZEg2jEuxR+zBKJtViq3tIEVGmIfIQgQCjsvIiTcYnY3+5LyR2TfeLU6ZZLvlb4RRFr4a0zNo4ekwWe55QeNAfKWAE2YSBS0FFzgg1cMvEjpy+AjyqbZ6090bh+W3XrzzYebjjvlfnHD41fNTM19tX4GIsjOCbITrUP5r13dswSUgwnHs8DASJf12wKWaYgQvczPCUGj0wbvmvhhMzZ/7o8bfaDeckfDYoxl9oEaIdz9O6O6KwYZSyY3prpyaeQskow4/Wtx/Hx7tI3jpyom3a+n+P54KJcoUkU7l2w8Mrl3IbCgqKSWmWsV7ZOVHF3VLVUkSLerGsIc0WMVZMItpU1JfESfrlwREoKgEXn29b/uWHYsjoTf9Nf9tVeJ09kDb3NN+Zo6aGZ9MocB6hitaKADpfuNUB2SqznocuHfDF7aNLTM8dn1ABAS7vvburxX3/GZXlxXYU9z9HhDXd3rBViiUN1m6aMhNw2M5u7xO3Hy2v33Xq6pSPn083Hf3zj7DFbzu/mz/EjutgLrPt4X1ZZWd3Sjz7dW3Cssh6SwEMKPhRSgE8U4BdF+dcssL1BdtU8dsU83Wp6wdVd5OPxafEoGJmy7Fc35jx5vm0tqe3If277qZ3/PBYhy+QbyaVX7mzoAkzAE4AJgNcDOF1Ba5KUYPE9e1XOqhtGJD87Zmj4qn8fH6jPP2B3PfP7nVULO5we3VhhINxyhQl8/ViiLmmQHY+kQFqsBTeOH1o8dUjqQ4vum9nls7q7JI71ybrCtIbGtn+u+Pvn8yoaWkGUR9oGRBE+kUcgSBZBtwyjvsykO2cKEYsh2dDEaM+1g+Nff+PWnKcsJuF84gh4bkPVwi2n29dsqm3XfQQMUTRCndNWU/VgEDqCqeAp4O4AnG7AxOE/d038aEJq9COjhiQ2dNa28jMdGd9dUzyrtc298mBDmzaY2ln8KyjemTAGZUioEkyjx+RzMWYR80dn1eSmxM/+3dMLujQroksj7199Vbzm5799f2HJmRb4eF62WMqzk8PiV4KujBcAkylkufTWShDl8wrJ4mKsyE2L/fvC0QlLHs6NrR6cEHVOBDvd2CE+8eWp+3Y3ut+qdvpDsSo2ZqXvsQII10z6MZsI1kygiJE8eGvO8H13T82aeq6f47OriubtqWv951dVzWkef0CXPhOBbJF0VVi4Qr2GzppRggVjspFuMY9866XvdBm5unSs8Jpr8m55etHNG6/Iy4ZJEEAAEPbL0kgoXcghuEQj04PUaDCtrnF4CfY3ex5YV9n+WmG9p+Bc27j1ZON9HW0t9ztaWwGB086MVkU5x4p6pZfICaE9x/QcNT1JkflhCABEjEpNwb5mvHM+n+OvC8ZtvGts+qIFI1NrbCZe59L0G9UJdR3ZKEuuCMeEYt3RClTaHZvv/dFbMzzeQJdwossHobMGJ917/x0zP7hqcg6JEgUEY1bBkEMkAa8nEhvs0YUq2Nf4Cfadds3/24nWtz452vLY2doVkCh+9d6Bx/59qOatT4+fubrV3gZ0tCtZo0LkTbNiMhumEBUS6bdw8u1v9WNHo2fpm7ubzto+PR66PnfVg5OHPPnglCENEDitewtaJ6ojGEscGnnPEo3pgW6rqMs60dD61k+XfHCjw+Exn09bI6HL02aumJLTUFx8+qkAoYe8AenhLWVnhrlpBDJF3Af/6MqUA01IQimWCD4sc8S0u6UXnt98xvL0NWmviLz293K0rHnBY2/vvmd7VfOComZXKMzgdMrHcckI5lcBCAVOOcaKIqS/9IjwMAF2v/2ME1E8fWH1gWbz7ZOTl4VfIDJumpa1andxvUMQuDff3Faa7XZ7taSI2BuMtOn1WPjm9UsoqmseA0KW/u7PnzzlcHg+jYuzXPCDYi9JPlZe3uCaM/Wty44cr1mVHB+7/l+FpTkAtJYokuWKJJQj1Q2LkAOb61xxJQ7/4mJPILmp3f9ySqzJ7vNJ+OPao/P/d92RN7dUNaW1eSVeXtRWAaFAu1NeD8sSjeDDmagSjghOsmAFGA2FQdiZOGDrMfWVrv7W0464WDOW7Cpz+PJHxK04+ycYwpV56Rs3H6272dnqevKzo6cfqGV6mhrCaIimt0r6sAVr+eT/OULgCVAcO92UaybkjayV2+8GcMHrVXSpeO8Mv1y2vuT1rUdzm5xuENWd6B90FOwFsgv1C4DJzNRn1wE1K8tnK2+ifpcCjwdyY2Fra7klK4queXHrSbR4/PLJoNtTNZQSCBVEICZaHlAmyrUiZTfoyRU2Sk1DO/0nSykg8Jg6OGbTE5elLvqvy1KOn8/KNT6/xP9w+VeP7aq1P1/U0BYnBQLa3qB+Y4d7IvYOQ24QhEAgEkRKIUgUPCWYODgF86ePmfjsM3ccPudGMuiWDNJZk4bPTkyKeeedr45MO1LfZvHqh3fU1WCCVqsza8borrDoNgBKIXpc+OeeBmS729ZUNLdBMxxDQ/XkjFKljFLApSTvmS0hyxWsC51l6gzqNdkOKvNiIuFkXft1/wZ9pKnZtRiA41yuCgBmOazy52UfFIobyhuWbCg+FUciDVYzwVBtT1FvvUKvEQiBQAGeyKTiCUVRVT1S46wfl5fX35yTk37e5OoWYs27dkxNSXnjgzYOr65Yv29BncMNSTSjOdKXpe8JsuOMqgbjdeQjBJyvAyZnOzinA5KrAxUSOctqM9oeJgD5w/Z45WPRDHQ2nasza6R345G0GIA2tw/VDs8TyWOTfACe7qSBneKJu6Ys+6qw2tfu9d1cc9o+v7LVqXWBYaGHCC6S0VkymSh4IhMq+D+lqKhtNgsClw3gvInVbanJI3NSy7PT4p+eMihpl83rg9TaigS3C8N5CltYK3Q9SI4tg2JlCOBzIr71DITqEqCqDKS2Bt6WVgT8zERV9pJA6BcNdccIbUrkzMyAXw5FBLNDdcFJSbexg8aaMl19pc6hRieWHWl4vMMjnfegOgBcMyV7xc/n5P3opnFZy67NzYCoLngSDD2oWgoM4cLFvEoggYbIxSl6K8Yk4r7bZthTUxM+u5A2dovGYvH0r1Zm7TtWvXlLVX0uJwoQTSJ8vABblBnZSfGA1YJ2cxQaeBFetVsvCoDAI5YDUkkA3g43TjtdQCAAkRIEJMospqZ9DqE84KyPSXGM1uJCdQReDhWwg8k+JRmPtWxsGg3AuEmVtKxwR6h+EBwgcFh8edanS24ZedOFfpb/+fxY3IFa+6jW5vYX3z1Uca29pV3+Eajpy/qBbN0wj0hkNygSxWJRAhHApOEZuP+uWVsGpyY+PGfO+AsKmnY7sQCg5rT9iW//99tLt1c1QAJCJNCnprCTH4LlnDaVhWdJoSOWoK/HKYJfJZZSX1DjTsy1BVHOsaIkRC4NmN5hkEDQaTGmgOPkL5TpTUbbTNVrb827Y86E9H0X+5nW1Ttu/d3bXz+/+mBZnE+Ssto7PHD7/KD6SLvyv0gpTJTCKvCIjTIhKTrKk5sSX373witrp00Z8YvsoSl7LqY9PUIsAFiz4dCGF/61ed6eygZ5hpRmAVqO+dJ1PTiOIVuwrhA+44a1RipZNJZLT0qdVVP3IicPAnv8CIriSG42LOzQCZiXJ1tMeHBcxqqX7hzXJU9k9QckfLqpeEZJVdOTa3efgNcsTOIJze3o8MDn9YMSAp4DbCYBcbYo4nV5ii0+6fisySNwx4KpNRMnZp/3wH5n6DFifb65KO1QWf3yd7YcKThY3SAnA3ZmtcIS7bhwArHkAhdauDYs76ozYqmvF3TnBFlvBbxAB5vRy4QgOOgIp5br41zqafm8KHAYGm9Zu++HM+9JjDW7ItS8KFSfap6/91D19PKqJrS0dUh+f0CwmEQpPTVWGJ2bIWUNStw0dkzmtq5+X6AHJ6zOnT2uYfW6A08WzBwLHyEFxbX20HegCQ0xWkYu0FdAWJyJU8sZcLp92EsjWSLVbQmA2Sq7Epd+uW49zhKbUEMXCgJ+IM7ETysss98O4F9nu+qFIHtI8mcALkh8Xyy6rVcYCbcvmFwzdkjqop/cOn1jXnqCXBjUMkrvpTOb2lk5ZTZov8hzts+snlJ7oLyAl2ePwtTUGF3EW59NEKGXyGYiSMxGCSSflHGwujXnHFvWZ9DjU+xvXzC5AcC3du4tW/P4H9dde7jeEeclKqHYeJX6ZSuuLmhgIpgiNubFWiWqr6ecOIuFNAk8BJv5zLvfyjl5S17SNeWVjfNF4O3CekeaT4oQ69IbUJakwTbRYHmD041N5Y3f+Dn1NfSoxWIxfeqIW3736PwlV2Qm70mOsSLMvLBdes2XT7XlmroMOF0dILy+7nXxZgGXp0QXPzwq+aHZ2XFzBI7D8gemfDYtPXbR5JToGnOwW89Gv9W9Pp6lWixJE1dqcnuxtb5NCJzXvMfej15DLACYOWX4K3MnDn/4tim5W8YNSoK8PKMu/qPv4rNgA6oRogOaOp2Rj5PrJMRbyL3j0g7eMTxh0Z8W5HyaGGsKjvS/ev+UVfkZcU9elhTdEEYafYCUdZVSOMkCPj/SzVxaY6sn4QI+sl6LHneFLCwWMwAcXvdl8aL46Kirc2rsiz8+fiojVCOCUGehF+Nhwp8BRyNeAhyHG4YmokwU7vnexPTKScPiIsZzXn1w6qr7l29z2t3e9eVtbkQMRXCQB7U1DdO1F8C0wfHXtTk94wFckh5aT6BXWSwVC+bkFf/vQ9f9dWx64lVvfO96TEiNj1BLEU2dur1OENFdyqQYk2jDz6YNWXXdsMTpR74z/oPOSKXizUdmfFZwRfYrcqxLHYPTDeWwcwMjuU1KYBP43Fan75LP9etO9CqLxSIx3hoAUAqA+2LbyXl7j9cufX9/eVZNmyuuydNJ/pmeUJphGKZctWQchySrGbE2c+1D4zMrCyZlLM0bmrgKAH52Dm00izyeWXPirdvGD/3JRwfKQCUJkdfD0iFCYmAnizL3WfRaYrG4ftaojQDGFR6peeKjrSdmvra/PCE71np9TasLzR4fgn2zSPGoIInkfwWeQ0aMFYMTrKQe3K5bhyTX/mzuiOVZqTFbfnkBbTstCfPXODgIMTEItLYqolw52ZkW1I09+iWpJj7aZL+At++16BPEUjFlQtYyAMs+21aaWX665ZHVhRVSTJJ1tokXZ9TaO8ytbh9afBLcFHABiBFFxJpFJFijkBpnRXqiDV9UNv9hWnp8xx2XZZIxmXGrrxidWvzqBbanqqHjiu+sK3+ZeCQQWwzg7AA8uvU2OE52edoYhCb0ceS0favNIluCxVAAAAf+SURBVB6/wGb0SvR5A1xabc87XNI4ZteJM3xlczvKHW60+AmaKEV6lBmDbVEYmhiNvMwETByWjJnj0tfG2LrmAeH3vV+85h8n7AtViyi0NkJqtmsTBTXDPeHiXRB5REWZnmv70/9bbBJ7peS9IPQpixUJudlJxQAirvnUhku3rMqrG8uXvnSwbh6kQHAcUoqJBeytAPGHKgZ/upQxWCGCJQgixsTbpP5EKqCX9gp7M043uc3v7ql54Z2SxidOtbktmtgUFwVTjDU0nEMkeWludYuQJJhiNWFWdkpP31aXo89brO5Ee4ePf2Vb1aQPjjdcV1TvhDyLRw1fUICnSEpIQH2TPbJoJ+Gxs8Ros2963qAucc29CQaxzgOL3juYVtLmebasqWMaJBpKySGQ9xSo58wwCTz8fjUkQhFaox0amcVzgNsfOJo3LPmcH13XV2C4wvMAlcjbJxrbF3h8fm22giargSIzLppxd+w57XBOtMBjaJS5fNSw5IvOIO1tMIh1jnhp9dE1a0vq59ndXl1EnX32oHzsjrLoous0YsQ9zmJCQX5uT9/aJYHhCr8BX+w7lXaotu2fv99WOq/N7QtllxJl0gLl5Z+nWsZRNEBQzrPQZZhSwEvI8TvmjH3wvm69o+6BYbHOgkMnGzOLGh1/+mth5byGNle4+2PXRWBTYoiiqTTuj2qPKcWP80eRaONh4wMLdU3tlnf2Vt31/v7q24/VtjBnqNIT5HV7CnVdCI4DRJ6DPyCFp0IrSLaYMWN81vJLfyc9A4NYneCFDw9m765uXlRY1yaCUKXXp1gjHgiWEWjzwEAhUIJojkNrcNyQhnnCmycMxZyZI895cZC+BoNYnaCp2bX+QI09h6gDxmpelbpaDUumoL6SCzhCIWeXqsPjTJYFgFizCdExUfd32830AAxi6XCsrClz7d6Kr57+uDBHs1iJAIDwAKeIdk6Qe4Q84wZ5uQ6RAnD7lefp6MBzHG4cN6QhyxrVax8U3hUwxLsOe0/WPb9sa3FO2Gp5EhMqYFcn1gh0+QlgkiShw+uLGG4YmhCNxGjrrx+9Z0Z1T9/rpYRhsRgs/efOa5dvODytye6Uf3BEGbLhiBwml6dsK/+r7o/VV0pOfiAAoq5WwwztWAQBI5Jjd0wYnLw1McHa74ZxWBgWS0FDU3vKtrrme483O/L8gYDu4d8R0oqDAVIalnocTwMR6hOMzEjA/Mk5mx68c9rRnr7fSw3DYil49b3d+XW1rQVtHW4AXASLxAM8CSXokVBWqqYuBwyWfGjTBUhjo0TkJcRszBuW9iebzdy/5npFgEEsALsPVuesPVDx6o6KM3GhSbBKOAGhiHrQwAcXGCEIPqAyuE4E4LG3yhYP6rWAq0cMsr/001veGzIkqdMHCPQnGMQC8Oqq3ZbKFmcOJEmbsUCJMvGasWBBEkHOWlDPQ95bKEFVi4PJIqXITorFQzdO/ceQIUl/74n76wkYGgvAmKHJP9pf1RCumcJ6fWqPkK2j1VeZfjeoJIGjBBwhyLCZcfWIQX+5fcHkLlsiqC/AIBaAhgbHox6/XzfuF2Ems35sMFiPBknobbLLD/omBImigLuuGld607V5L/b0PXY3DFcIYGdRtUIMhEILqraCGiQloelc6s+RKgcKsTJ5go72DgiEwsxzuH3WWNwwc+zL40dnVvbIjfUgBrzFOll6Zn5hvT2Uo06JNnuBXXRfv+QiszKxQAm45hZQrxcxAo+F08c4vv2tKxbdMGfC60Oyki/4CQ99FQPeYlWesr8MSVLyrKD0AFVrBcVKcfLQDTtOqHtqRoIUgN/RDjMFbswf7bjnhqmLr7t2bL8dZP4mDHhiVZ+2M4Jd6f2xkXV1TXnChBeCZZB7gqCwtjtgkiTcPG8y7rxh6jNXzRo9YEkFGMRCh8sbCm4GycTuoWQwEIZcSrhB0WOC24cMjmLc5JzVC+dM+vCqWaO7fNnHvoYBTyyq6qRIkXYoqTCcEijliNYt8hwsEjAnNRqTckasSEmKWXL5xOwIzwUeeBjwxEqIt4EnFATqkAwfSoeh6jLgJJTQF5zuRWATTHho/JBdzzw69+XMTHmVmsfP+zHo/RMDnljDspI8AiHgwIFwPGhQXylZDeAiRthtognzR2YefvF/brvGYjH160yFC8GADzdkDor/UzTPQSBEeZYMk9EQ6YFHhMDEAQsnDycP3DBxsUGqyBjwxBqVO+jvI5JiIRAKkRIIyhOw2Nk0mlX6KMXM0YNxw5QRy3IyEjf1dPt7KwY8sQBgfE6G/Mw+QiESolgvqlgvqtkmZCVj4aThK9LjbEvGjxl0zs8bHGgY8BoLAK66clT5mh3FOZJEwPHqdC6AgAPhKKjSAxybmep5bPbE139w/1UDakD5QtDZkyIHFDowepOJ5x5zuDwApeCUHCr2b256Ih6dPenPj39vtkGqc4DhCgHcPm8KmTl5hOZpowKhykYwLiMRCy7LWfGTH1xvkOocYRALwLgxWTUcpcsSLeYguQRKIEgEYzOSkD8ic1m0SXymp9vZl2AQC8C11+Y5Lhs9ZPsV44cpz0Ym4CSCYanxmDVmyIq0+OjFz//iNkOonwf6/OK2XYnvPfLaD49UnHnhdLMjJiMt3jP/yrGv/+ZXdxvu7wJgiHcG277+8GB1ab1PIKTtvxbkb/rvpxYapDJgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwZ6Gv8HvDX63ZgC2dEAAAAASUVORK5CYII=" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- =========== NAVBAR =========== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">
+        <img
+          src="data:image/png;base64,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"
+          alt="Swastik Logo" class="nav-logo" />
+        <div class="brand-text">
+          <span class="brand-main">SWASTIK</span>
+          <span class="brand-sub">POLY PRINTS PVT. LTD.</span>
+        </div>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#process" class="nav-link">Process</a></li>
+        <li><a href="#why-us" class="nav-link">Why Us</a></li>
+        <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- =========== HERO =========== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <!-- Fabric wave SVG at bottom -->
+    <div class="hero-fabric-wave">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,60 C180,120 360,0 540,60 C720,120 900,0 1080,60 C1260,120 1350,30 1440,60 L1440,120 L0,120 Z"
+          fill="#f0f4f8" />
+      </svg>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-industry"></i> Established 2002 · GIDC Sachin, Surat
+      </div>
+      <h1 class="hero-title">
+        Precision in Every<br />
+        <span class="hero-highlight">Thread & Colour</span>
+      </h1>
+      <p class="hero-desc">
+        Gujarat's trusted textile process house — specialising in dyeing &amp; printing of Polyester, Viscose &amp; MMF
+        fabrics. AZO Free · PC Free · 500+ Skilled Professionals.
+      </p>
+      <div class="hero-ctas">
+        <a href="#services" class="btn btn-primary">Our Services</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <!-- SVG textile illustration replacing hero image -->
+    <div class="hero-illustration">
+      <svg viewBox="0 0 520 420" xmlns="http://www.w3.org/2000/svg" class="textile-svg">
+        <!-- Fabric rolls -->
+        <ellipse cx="260" cy="340" rx="220" ry="30" fill="rgba(0,61,124,0.12)" />
+        <!-- Roll 1 -->
+        <rect x="60" y="160" width="120" height="170" rx="12" fill="#1a5fa8" />
+        <rect x="60" y="160" width="120" height="170" rx="12" fill="url(#rollGrad1)" />
+        <ellipse cx="120" cy="160" rx="60" ry="18" fill="#2277cc" />
+        <ellipse cx="120" cy="330" rx="60" ry="18" fill="#0a3d7a" />
+        <!-- Roll 2 -->
+        <rect x="200" y="130" width="120" height="200" rx="12" fill="#0d4ea6" />
+        <rect x="200" y="130" width="120" height="200" rx="12" fill="url(#rollGrad2)" />
+        <ellipse cx="260" cy="130" rx="60" ry="18" fill="#1e6fd4" />
+        <ellipse cx="260" cy="330" rx="60" ry="18" fill="#082f78" />
+        <!-- Roll 3 -->
+        <rect x="340" y="155" width="120" height="175" rx="12" fill="#1560ba" />
+        <rect x="340" y="155" width="120" height="175" rx="12" fill="url(#rollGrad3)" />
+        <ellipse cx="400" cy="155" rx="60" ry="18" fill="#2b8be0" />
+        <ellipse cx="400" cy="330" rx="60" ry="18" fill="#0a3d7a" />
+        <!-- Fabric draping lines on rolls -->
+        <line x1="75" y1="180" x2="75" y2="320" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="95" y1="175" x2="95" y2="325" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="115" y1="173" x2="115" y2="327" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="135" y1="175" x2="135" y2="325" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="155" y1="180" x2="155" y2="320" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="215" y1="150" x2="215" y2="320" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="235" y1="145" x2="235" y2="325" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="260" y1="143" x2="260" y2="327" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="285" y1="145" x2="285" y2="325" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="305" y1="150" x2="305" y2="320" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="355" y1="175" x2="355" y2="320" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="380" y1="170" x2="380" y2="325" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="400" y1="168" x2="400" y2="327" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="420" y1="170" x2="420" y2="325" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <line x1="445" y1="175" x2="445" y2="320" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+        <!-- Floating colour swatches -->
+        <rect x="40" y="60" width="50" height="50" rx="8" fill="#1a5fa8" opacity="0.9" transform="rotate(-10 65 85)" />
+        <rect x="52" y="72" width="50" height="50" rx="8" fill="#2eaadc" opacity="0.85" transform="rotate(-5 77 97)" />
+        <rect x="430" y="50" width="50" height="50" rx="8" fill="#0a3d7a" opacity="0.9" transform="rotate(8 455 75)" />
+        <rect x="418" y="62" width="50" height="50" rx="8" fill="#5bc0eb" opacity="0.8" transform="rotate(3 443 87)" />
+        <!-- Colour drips -->
+        <ellipse cx="120" cy="72" rx="8" ry="12" fill="#2eaadc" opacity="0.7" />
+        <ellipse cx="260" cy="52" rx="8" ry="12" fill="#5bc0eb" opacity="0.7" />
+        <ellipse cx="400" cy="68" rx="8" ry="12" fill="#1a5fa8" opacity="0.7" />
+        <defs>
+          <linearGradient id="rollGrad1" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="rgba(0,0,0,0.25)" />
+            <stop offset="40%" stop-color="rgba(255,255,255,0.1)" />
+            <stop offset="100%" stop-color="rgba(0,0,0,0.2)" />
+          </linearGradient>
+          <linearGradient id="rollGrad2" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="rgba(0,0,0,0.2)" />
+            <stop offset="45%" stop-color="rgba(255,255,255,0.12)" />
+            <stop offset="100%" stop-color="rgba(0,0,0,0.2)" />
+          </linearGradient>
+          <linearGradient id="rollGrad3" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="rgba(0,0,0,0.2)" />
+            <stop offset="45%" stop-color="rgba(255,255,255,0.1)" />
+            <stop offset="100%" stop-color="rgba(0,0,0,0.25)" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+  </section>
+
+  <!-- =========== STATS =========== -->
+  <section id="stats" class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item" data-target="2002" data-suffix="" data-prefix="Est. ">
+          <div class="stat-icon"><i class="fas fa-calendar-alt"></i></div>
+          <div class="stat-number"><span class="counter" data-target="2002" data-prefix="Est. ">Est. 0</span></div>
+          <div class="stat-label">Year Established</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-users"></i></div>
+          <div class="stat-number"><span class="counter" data-target="500" data-suffix="+">0</span></div>
+          <div class="stat-label">Skilled Employees</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-industry"></i></div>
+          <div class="stat-number"><span class="counter" data-target="20" data-suffix="+">0</span></div>
+          <div class="stat-label">Years of Excellence</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-certificate"></i></div>
+          <div class="stat-number"><span class="static-val">GST ✓</span></div>
+          <div class="stat-label">Registered & Certified</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== ABOUT =========== -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-eyebrow">Who We Are</div>
+      <div class="about-grid">
+        <!-- SVG factory illustration -->
+        <div class="about-illustration">
+          <svg viewBox="0 0 480 380" xmlns="http://www.w3.org/2000/svg">
+            <!-- Factory building -->
+            <rect x="60" y="160" width="360" height="180" rx="4" fill="#e8f0fa" />
+            <rect x="60" y="160" width="360" height="180" rx="4" fill="url(#factoryWall)" />
+            <!-- Roof -->
+            <polygon points="40,160 480,160 440,110 100,110" fill="#c5d8f0" />
+            <!-- Chimneys -->
+            <rect x="140" y="60" width="30" height="100" rx="4" fill="#1a5fa8" />
+            <rect x="210" y="80" width="30" height="80" rx="4" fill="#1a5fa8" />
+            <rect x="310" y="70" width="30" height="90" rx="4" fill="#1a5fa8" />
+            <!-- Smoke -->
+            <circle cx="155" cy="52" r="12" fill="rgba(255,255,255,0.6)" />
+            <circle cx="165" cy="38" r="10" fill="rgba(255,255,255,0.4)" />
+            <circle cx="152" cy="26" r="8" fill="rgba(255,255,255,0.3)" />
+            <circle cx="225" cy="72" r="10" fill="rgba(255,255,255,0.6)" />
+            <circle cx="233" cy="58" r="8" fill="rgba(255,255,255,0.4)" />
+            <circle cx="325" cy="62" r="11" fill="rgba(255,255,255,0.6)" />
+            <circle cx="333" cy="48" r="9" fill="rgba(255,255,255,0.4)" />
+            <!-- Windows -->
+            <rect x="90" y="185" width="55" height="45" rx="4" fill="#2277cc" opacity="0.7" />
+            <rect x="165" y="185" width="55" height="45" rx="4" fill="#2277cc" opacity="0.7" />
+            <rect x="240" y="185" width="55" height="45" rx="4" fill="#2277cc" opacity="0.7" />
+            <rect x="315" y="185" width="55" height="45" rx="4" fill="#2277cc" opacity="0.7" />
+            <!-- Door -->
+            <rect x="185" y="260" width="60" height="80" rx="4" fill="#0d4ea6" />
+            <!-- Ground -->
+            <rect x="0" y="338" width="480" height="42" rx="0" fill="#dce8f5" />
+            <!-- GIDC sign -->
+            <rect x="350" y="300" width="90" height="30" rx="4" fill="#0a3d7a" />
+            <text x="395" y="320" text-anchor="middle" fill="white" font-size="10" font-family="Montserrat,sans-serif"
+              font-weight="700">GIDC SACHIN</text>
+            <defs>
+              <linearGradient id="factoryWall" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="rgba(255,255,255,0.3)" />
+                <stop offset="100%" stop-color="rgba(0,0,0,0.05)" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="about-content">
+          <h2 class="section-title">Weaving Quality<br />Since 2002</h2>
+          <p class="about-text">
+            M/s. Swastik Poly Prints Pvt. Ltd. is a premier textile process house situated at Plot No. 285-286, Road No.
+            2, G.I.D.C. Sachin, Surat. Incorporated under the Companies Act 1956, we have been delivering world-class
+            fabric processing for over two decades.
+          </p>
+          <p class="about-text">
+            Our state-of-the-art facility specialises in dyeing &amp; printing of M.M.F. fabrics — Polyester ×
+            Polyester, Polyester × Viscose, and other challenging synthetic blends — all meeting AZO Free and PC Free
+            standards.
+          </p>
+          <div class="about-details">
+            <div class="detail-row">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Plot No. 285-286, Road No. 2, G.I.D.C. Sachin, Surat, Gujarat</span>
+            </div>
+            <div class="detail-row">
+              <i class="fas fa-id-card"></i>
+              <span>CIN: U17111GJ2004PTC43578</span>
+            </div>
+            <div class="detail-row">
+              <i class="fas fa-users-cog"></i>
+              <span>Directors: Yogesh P. Khemka (ME Mech.) &nbsp;&amp;&nbsp; Ritesh Agarwal (BE Chem.)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== SERVICES =========== -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-eyebrow">What We Do</div>
+      <h2 class="section-title centered">Our Core Services</h2>
+      <p class="section-subtitle">End-to-end textile processing under one roof — from greige fabric to finished goods.
+      </p>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="30" cy="30" r="28" fill="url(#svc1Grad)" />
+              <path d="M18 38 Q22 22 30 28 Q38 34 42 18" stroke="white" stroke-width="3" fill="none"
+                stroke-linecap="round" />
+              <circle cx="30" cy="30" r="4" fill="white" opacity="0.8" />
+              <defs>
+                <radialGradient id="svc1Grad">
+                  <stop offset="0%" stop-color="#2277cc" />
+                  <stop offset="100%" stop-color="#0a3d7a" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3>Fabric Dyeing</h3>
+          <p>Advanced continuous &amp; batch dyeing processes for polyester and blended fabrics with consistent colour
+            fastness.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="30" cy="30" r="28" fill="url(#svc2Grad)" />
+              <rect x="15" y="22" width="30" height="6" rx="3" fill="white" opacity="0.9" />
+              <rect x="15" y="32" width="22" height="6" rx="3" fill="white" opacity="0.7" />
+              <rect x="15" y="42" width="26" height="6" rx="3" fill="white" opacity="0.5" />
+              <defs>
+                <radialGradient id="svc2Grad">
+                  <stop offset="0%" stop-color="#1a5fa8" />
+                  <stop offset="100%" stop-color="#082f78" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3>Fabric Printing</h3>
+          <p>High-resolution rotary &amp; flat-screen printing delivering vibrant, long-lasting patterns on all fabric
+            types.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="30" cy="30" r="28" fill="url(#svc3Grad)" />
+              <path d="M20 20 L40 20 L40 40 L20 40 Z" stroke="white" stroke-width="2.5" fill="none" />
+              <line x1="20" y1="26" x2="40" y2="26" stroke="white" stroke-width="1.5" opacity="0.7" />
+              <line x1="20" y1="32" x2="40" y2="32" stroke="white" stroke-width="1.5" opacity="0.7" />
+              <line x1="26" y1="20" x2="26" y2="40" stroke="white" stroke-width="1.5" opacity="0.7" />
+              <line x1="34" y1="20" x2="34" y2="40" stroke="white" stroke-width="1.5" opacity="0.7" />
+              <defs>
+                <radialGradient id="svc3Grad">
+                  <stop offset="0%" stop-color="#2eaadc" />
+                  <stop offset="100%" stop-color="#1060b0" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3>MMF Processing</h3>
+          <p>Specialised processing of Man-Made Fibres including Polyester × Polyester &amp; Polyester × Viscose blends.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="30" cy="30" r="28" fill="url(#svc4Grad)" />
+              <path d="M30 15 L34 26 L46 26 L37 33 L40 44 L30 37 L20 44 L23 33 L14 26 L26 26 Z" fill="white"
+                opacity="0.9" />
+              <defs>
+                <radialGradient id="svc4Grad">
+                  <stop offset="0%" stop-color="#3395e0" />
+                  <stop offset="100%" stop-color="#0a3d7a" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3>AZO Free Processing</h3>
+          <p>Certified AZO-free &amp; PC-free processing ensuring compliance with international safety &amp;
+            environmental standards.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="30" cy="30" r="28" fill="url(#svc5Grad)" />
+              <polyline points="15,35 22,25 30,32 38,20 45,28" stroke="white" stroke-width="3" fill="none"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <defs>
+                <radialGradient id="svc5Grad">
+                  <stop offset="0%" stop-color="#1a5fa8" />
+                  <stop offset="100%" stop-color="#051e50" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3>Quality Assurance</h3>
+          <p>Rigorous in-process &amp; final QA checks ensuring colour consistency, dimensional stability, and
+            defect-free output.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="30" cy="30" r="28" fill="url(#svc6Grad)" />
+              <rect x="18" y="24" width="24" height="18" rx="3" fill="white" opacity="0.85" />
+              <rect x="22" y="18" width="16" height="8" rx="2" fill="white" opacity="0.6" />
+              <rect x="24" y="30" width="12" height="8" rx="2" fill="url(#svc6Grad)" opacity="0.6" />
+              <defs>
+                <radialGradient id="svc6Grad">
+                  <stop offset="0%" stop-color="#2277cc" />
+                  <stop offset="100%" stop-color="#0d4ea6" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3>Bulk Production</h3>
+          <p>Scalable production capacity to handle high-volume orders with consistent quality &amp; on-time delivery.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== PROCESS =========== -->
+  <section id="process" class="process-section">
+    <div class="container">
+      <div class="section-eyebrow">How We Work</div>
+      <h2 class="section-title centered">Manufacturing Process</h2>
+      <p class="section-subtitle">A streamlined, quality-controlled workflow from raw fabric to finished product.</p>
+      <div class="process-flow">
+        <div class="process-step">
+          <div class="ps-circle">
+            <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="22" cy="22" r="20" fill="white" opacity="0.15" />
+              <path d="M12 22 L20 14 L32 14 L32 30 L20 30 Z" stroke="white" stroke-width="1.8" fill="none" />
+              <circle cx="16" cy="18" r="2" fill="white" />
+            </svg>
+          </div>
+          <div class="ps-label">Fabric<br />Inspection</div>
+        </div>
+        <div class="process-arrow"><i class="fas fa-chevron-right"></i></div>
+        <div class="process-step">
+          <div class="ps-circle">
+            <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="22" cy="22" r="20" fill="white" opacity="0.15" />
+              <path d="M14 28 Q18 16 22 22 Q26 28 30 16" stroke="white" stroke-width="2" fill="none"
+                stroke-linecap="round" />
+            </svg>
+          </div>
+          <div class="ps-label">Pre-<br />Treatment</div>
+        </div>
+        <div class="process-arrow"><i class="fas fa-chevron-right"></i></div>
+        <div class="process-step">
+          <div class="ps-circle">
+            <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="22" cy="22" r="20" fill="white" opacity="0.15" />
+              <circle cx="22" cy="22" r="8" fill="none" stroke="white" stroke-width="2" />
+              <circle cx="22" cy="22" r="3" fill="white" />
+              <line x1="22" y1="10" x2="22" y2="14" stroke="white" stroke-width="1.5" />
+              <line x1="22" y1="30" x2="22" y2="34" stroke="white" stroke-width="1.5" />
+            </svg>
+          </div>
+          <div class="ps-label">Dyeing &amp;<br />Colouring</div>
+        </div>
+        <div class="process-arrow"><i class="fas fa-chevron-right"></i></div>
+        <div class="process-step">
+          <div class="ps-circle">
+            <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="22" cy="22" r="20" fill="white" opacity="0.15" />
+              <rect x="13" y="17" width="18" height="10" rx="2" stroke="white" stroke-width="1.8" fill="none" />
+              <line x1="13" y1="21" x2="31" y2="21" stroke="white" stroke-width="1.2" />
+              <line x1="18" y1="17" x2="18" y2="27" stroke="white" stroke-width="1.2" />
+              <line x1="24" y1="17" x2="24" y2="27" stroke="white" stroke-width="1.2" />
+            </svg>
+          </div>
+          <div class="ps-label">Printing</div>
+        </div>
+        <div class="process-arrow"><i class="fas fa-chevron-right"></i></div>
+        <div class="process-step">
+          <div class="ps-circle">
+            <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="22" cy="22" r="20" fill="white" opacity="0.15" />
+              <polyline points="12,22 18,28 32,14" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+          <div class="ps-label">Quality<br />Check</div>
+        </div>
+        <div class="process-arrow"><i class="fas fa-chevron-right"></i></div>
+        <div class="process-step">
+          <div class="ps-circle">
+            <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="22" cy="22" r="20" fill="white" opacity="0.15" />
+              <rect x="13" y="18" width="18" height="14" rx="2" stroke="white" stroke-width="1.8" fill="none" />
+              <path d="M17 18 L17 14 L27 14 L27 18" stroke="white" stroke-width="1.5" fill="none" />
+            </svg>
+          </div>
+          <div class="ps-label">Packaging &amp;<br />Dispatch</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== WHY US =========== -->
+  <section id="why-us" class="whyus-section">
+    <div class="container">
+      <div class="section-eyebrow">Our Edge</div>
+      <h2 class="section-title centered">Why Choose Swastik?</h2>
+      <div class="whyus-grid">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-award"></i></div>
+          <h3>20+ Years Experience</h3>
+          <p>Over two decades of expertise in textile processing, building trust with clients across India.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-leaf"></i></div>
+          <h3>Eco-Friendly Standards</h3>
+          <p>AZO Free and PC Free certified processing, committed to environmental responsibility.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-users"></i></div>
+          <h3>Skilled Workforce</h3>
+          <p>500+ experienced professionals dedicated to delivering precision in every process.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-cogs"></i></div>
+          <h3>Modern Infrastructure</h3>
+          <p>State-of-the-art machinery at GIDC Sachin enabling high-volume, consistent quality output.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Quality Assured</h3>
+          <p>Strict in-process quality controls ensuring every metre of fabric meets client specifications.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-handshake"></i></div>
+          <h3>Trusted Partnerships</h3>
+          <p>Long-standing relationships with leading textile manufacturers across Surat &amp; beyond.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== CONTACT =========== -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-eyebrow centered">Reach Us</div>
+      <h2 class="section-title centered">Get In Touch</h2>
+      <p class="section-subtitle">We'd love to hear from you. Reach us through any of the details below.</p>
+      <div class="contact-cards-grid">
+        <div class="contact-card">
+          <div class="cc-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <h4>Factory Address</h4>
+            <p>Plot No. 285-286, Road No. 2,<br />G.I.D.C. Sachin, Surat,<br />Gujarat – 394230, India</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon"><i class="fas fa-phone-alt"></i></div>
+          <div>
+            <h4>Phone</h4>
+            <p><a href="tel:+919925235733">+91 99252 35733</a><br /><a href="tel:+912612397841">+91 261-239 7841</a></p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <h4>Email</h4>
+            <p><a href="mailto:sppsurat@rediffmail.com">sppsurat@rediffmail.com</a></p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon"><i class="fas fa-id-badge"></i></div>
+          <div>
+            <h4>Company Info</h4>
+            <p>CIN: U17111GJ2004PTC43578<br />IEC: 5202006586</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== FOOTER =========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img
+            src="data:image/png;base64,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"
+            alt="Swastik Logo" class="footer-logo" />
+          <p class="footer-tagline">Precision in Every Thread &amp; Colour</p>
+          <p class="footer-copy">© 2026 Swastik Poly Prints Pvt. Ltd.<br />All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h5>Contact</h5>
+          <p><i class="fas fa-map-marker-alt"></i> <a
+              href="https://maps.google.com/?q=Swastik+Poly+Prints,+GIDC+Sachin,+Surat" target="_blank">Plot 285-286,
+              GIDC Sachin, Surat</a></p>
+          <p><i class="fas fa-phone-alt"></i> <a href="tel:+919925235733">+91 99252 35733</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:sppsurat@rediffmail.com">sppsurat@rediffmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Swastik Poly Prints Pvt. Ltd. · CIN: U17111GJ2004PTC43578</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
